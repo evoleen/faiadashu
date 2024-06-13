@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-flutter gen-l10n
-dart format --fix lib
+fvm flutter gen-l10n
+fvm dart format --fix lib

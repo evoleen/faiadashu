@@ -2,5 +2,5 @@
 
 set -e
 
-dart format --fix --set-exit-if-changed lib
-flutter pub publish
+fvm dart format --fix --set-exit-if-changed lib
+fvm flutter pub publish
